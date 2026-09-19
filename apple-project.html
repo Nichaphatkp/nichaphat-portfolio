@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Apple Stock Predictive Intelligence System
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="project-page">
+
+
+    <!-- =================================================
+         TOP BAR
+    ================================================= -->
+
+    <header class="project-page-header">
+
+    <div class="project-page-header-inner">
+
+        <a href="index.html#projects" class="back-resume-btn">
+            ← Back to Resume
+        </a>
+
+        <div class="project-page-actions">
+            <button id="themeBtn">☀️</button>
+        </div>
+
+    </div>
+
+</header>
+
+
+    <main class="project-page-container">
+
+
+        <!-- =================================================
+             HERO
+        ================================================= -->
+
+        <section class="project-hero">
+
+
+            <div class="project-badges">
+
+                <span class="project-main-badge">
+                    AI / DATA SCIENCE
+                </span>
+
+                <span class="project-outline-badge">
+                    MACHINE LEARNING
+                </span>
+
+                <span class="project-outline-badge">
+                    TIME SERIES
+                </span>
+
+            </div>
+
+
+            <h1>
+                Apple Stock Predictive
+                <br>
+                Intelligence System
+            </h1>
+
+
+            <p class="project-hero-description">
+
+                A machine learning-based decision support system
+                for analyzing historical Apple (AAPL) stock data,
+                forecasting future prices and identifying potential
+                uptrend opportunities.
+
+            </p>
+
+
+            <!-- QUICK INFO -->
+
+            <div class="project-info-grid">
+
+
+                <div class="project-info-item">
+
+                    <span>
+                        TARGET ASSET
+                    </span>
+
+                    <strong>
+                        Apple (AAPL)
+                    </strong>
+
+                </div>
+
+
+                <div class="project-info-item">
+
+                    <span>
+                        DATA PERIOD
+                    </span>
+
+                    <strong>
+                        1980 – 2025
+                    </strong>
+
+                </div>
+
+
+                <div class="project-info-item">
+
+                    <span>
+                        PRIMARY MODEL
+                    </span>
+
+                    <strong>
+                        Linear Regression
+                    </strong>
+
+                </div>
+
+
+                <div class="project-info-item">
+
+                    <span>
+                        PROJECT YEAR
+                    </span>
+
+                    <strong>
+                        2026
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-hero-buttons">
+
+                <a
+                    href="#overview"
+                    class="primary-project-btn">
+
+                    View Project
+
+                </a>
+
+                <a
+                    href="index.html#projects"
+                    class="secondary-project-btn">
+
+                    Back to Portfolio
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             01 PROJECT OVERVIEW
+        ================================================= -->
+
+        <section
+            id="overview"
+            class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>01</span>
+
+                <h2>
+                    Project Overview
+                </h2>
+
+            </div>
+
+
+            <p class="project-section-intro">
+
+                The project develops an intelligent system
+                to analyze and forecast Apple stock prices
+                using historical market data.
+
+                Machine Learning is applied to transform raw
+                technical data into decision-support insights.
+
+            </p>
+
+
+            <div class="project-three-grid">
+
+
+                <article class="project-feature-box">
+
+                    <span class="box-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Price Forecasting
+                    </h3>
+
+                    <p>
+                        Predict next-day AAPL closing prices
+                        using historical market variables.
+                    </p>
+
+                </article>
+
+
+                <article class="project-feature-box">
+
+                    <span class="box-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Trend Detection
+                    </h3>
+
+                    <p>
+                        Detect potential uptrend opportunities
+                        and support market-entry decisions.
+                    </p>
+
+                </article>
+
+
+                <article class="project-feature-box">
+
+                    <span class="box-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Risk Management
+                    </h3>
+
+                    <p>
+                        Analyze volatility and market regimes
+                        to support dynamic risk-control strategies.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             02 DATA
+        ================================================= -->
+
+        <section class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>02</span>
+
+                <h2>
+                    Data & Preparation
+                </h2>
+
+            </div>
+
+
+            <div class="method-grid">
+
+
+                <div class="method-card">
+
+                    <span>
+                        DATASET
+                    </span>
+
+                    <h3>
+                        Apple Stock Data
+                    </h3>
+
+                    <p>
+                        Daily AAPL time-series data spanning
+                        more than 45 years from 1980 to 2025.
+                    </p>
+
+                </div>
+
+
+                <div class="method-card">
+
+                    <span>
+                        BASE FEATURES
+                    </span>
+
+                    <h3>
+                        OHLC & Volume
+                    </h3>
+
+                    <p>
+                        Open, High, Low, Close, Adjusted Close
+                        and Volume were used as the analytical
+                        foundation.
+                    </p>
+
+                </div>
+
+
+                <div class="method-card highlight-card">
+
+                    <span>
+                        TARGET
+                    </span>
+
+                    <h3>
+                        Next-Day Close
+                    </h3>
+
+                    <p>
+                        Next_Close was defined as the primary
+                        regression target for price prediction.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             03 FEATURE ENGINEERING
+        ================================================= -->
+
+        <section class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>03</span>
+
+                <h2>
+                    Feature Engineering
+                </h2>
+
+            </div>
+
+
+            <div class="project-tag-grid">
+
+                <span>MA7</span>
+                <span>MA30</span>
+                <span>Daily Return</span>
+                <span>Rolling Volatility</span>
+                <span>OHLC</span>
+                <span>Volume</span>
+                <span>Market Regimes</span>
+
+            </div>
+
+
+            <p class="project-section-intro">
+
+                Short- and medium-term moving averages were
+                generated together with return and volatility
+                metrics to capture price trends and changing
+                market-risk conditions.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- =================================================
+             04 TECHNOLOGIES
+        ================================================= -->
+
+        <section class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>04</span>
+
+                <h2>
+                    Technologies & Tools
+                </h2>
+
+            </div>
+
+
+            <div class="project-tag-grid">
+
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+                <span>Scikit-learn</span>
+                <span>Matplotlib</span>
+                <span>Seaborn</span>
+                <span>Linear Regression</span>
+                <span>Time-Series Analysis</span>
+                <span>EDA</span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             05 DEVELOPMENT PROCESS
+        ================================================= -->
+
+        <section class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>05</span>
+
+                <h2>
+                    Development Process
+                </h2>
+
+            </div>
+
+
+            <div class="project-process">
+
+
+                <div>
+                    <span>01</span>
+                    <strong>Data Cleaning</strong>
+                </div>
+
+                <b>→</b>
+
+
+                <div>
+                    <span>02</span>
+                    <strong>Feature Engineering</strong>
+                </div>
+
+                <b>→</b>
+
+
+                <div>
+                    <span>03</span>
+                    <strong>EDA</strong>
+                </div>
+
+                <b>→</b>
+
+
+                <div>
+                    <span>04</span>
+                    <strong>Model Training</strong>
+                </div>
+
+                <b>→</b>
+
+
+                <div>
+                    <span>05</span>
+                    <strong>Time-Series Validation</strong>
+                </div>
+
+                <b>→</b>
+
+
+                <div>
+                    <span>06</span>
+                    <strong>Strategic Insight</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             06 EDA
+        ================================================= -->
+
+        <section class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>06</span>
+
+                <h2>
+                    Exploratory Data Analysis
+                </h2>
+
+            </div>
+
+
+            <div class="method-grid">
+
+
+                <div class="method-card">
+
+                    <span>
+                        CORRELATION
+                    </span>
+
+                    <h3>
+                        Close Price & MA30
+                    </h3>
+
+                    <p>
+                        EDA identified a very high correlation
+                        between closing price and the 30-day
+                        moving average.
+                    </p>
+
+                </div>
+
+
+                <div class="method-card">
+
+                    <span>
+                        VOLATILITY
+                    </span>
+
+                    <h3>
+                        Market Risk
+                    </h3>
+
+                    <p>
+                        Rolling volatility was used to distinguish
+                        stable and volatile market conditions.
+                    </p>
+
+                </div>
+
+
+                <div class="method-card highlight-card">
+
+                    <span>
+                        STRATEGY
+                    </span>
+
+                    <h3>
+                        MA30 Baseline
+                    </h3>
+
+                    <p>
+                        MA30 was used as a practical baseline
+                        for trend-following and risk-control
+                        decisions.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             07 MODEL PERFORMANCE
+        ================================================= -->
+
+        <section class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>07</span>
+
+                <h2>
+                    Model Performance
+                </h2>
+
+            </div>
+
+
+            <div class="apple-metric-grid">
+
+
+                <div class="apple-metric-card">
+
+                    <span>
+                        R² SCORE
+                    </span>
+
+                    <strong>
+                        0.9988
+                    </strong>
+
+                </div>
+
+
+                <div class="apple-metric-card">
+
+                    <span>
+                        RMSE
+                    </span>
+
+                    <strong>
+                        ±$2.17
+                    </strong>
+
+                </div>
+
+
+                <div class="apple-metric-card">
+
+                    <span>
+                        UPTREND RECALL
+                    </span>
+
+                    <strong>
+                        61.3%
+                    </strong>
+
+                </div>
+
+
+                <div class="apple-metric-card">
+
+                    <span>
+                        DERIVED ACCURACY
+                    </span>
+
+                    <strong>
+                        ≈50.5%
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <p class="project-section-intro">
+
+                The model was validated using a strict
+                chronological 80/20 Time-Series Split,
+                training on historical data and testing
+                on future observations.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- =================================================
+             08 KEY INSIGHT
+        ================================================= -->
+
+        <section class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>08</span>
+
+                <h2>
+                    Key Insights
+                </h2>
+
+            </div>
+
+
+            <div class="project-three-grid">
+
+
+                <article class="project-feature-box">
+
+                    <span class="box-number">
+                        01
+                    </span>
+
+                    <h3>
+                        MA30
+                    </h3>
+
+                    <p>
+                        The 30-day moving average was identified
+                        as an important predictor of AAPL
+                        market behavior.
+                    </p>
+
+                </article>
+
+
+                <article class="project-feature-box">
+
+                    <span class="box-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Trend Strategy
+                    </h3>
+
+                    <p>
+                        Price remaining above MA30 was interpreted
+                        as a bullish trend signal.
+                    </p>
+
+                </article>
+
+
+                <article class="project-feature-box">
+
+                    <span class="box-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Dynamic Risk
+                    </h3>
+
+                    <p>
+                        Volatility information can support
+                        dynamic stop-loss adjustments during
+                        different market conditions.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             09 PROJECT OUTCOME
+        ================================================= -->
+
+        <section class="project-detail-section">
+
+
+            <div class="project-section-title">
+
+                <span>09</span>
+
+                <h2>
+                    Project Outcome
+                </h2>
+
+            </div>
+
+
+            <div class="project-outcome-box">
+
+
+                <div class="project-outcome-symbol">
+                    ✦
+                </div>
+
+
+                <div>
+
+                    <span>
+                        KEY RESULT
+                    </span>
+
+
+                    <h3>
+                        Transformed historical AAPL market data
+                        into a machine learning-based decision
+                        support workflow.
+                    </h3>
+
+
+                    <p>
+
+                        The project demonstrates practical
+                        experience in data preparation,
+                        feature engineering, exploratory
+                        analysis, Machine Learning,
+                        Time-Series validation and converting
+                        model results into strategic insights.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
