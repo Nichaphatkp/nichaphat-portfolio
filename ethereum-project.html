@@ -173,612 +173,320 @@
 
 
         <!-- =================================================
-             01 PROJECT OVERVIEW
-        ================================================= -->
+     01 PROJECT OVERVIEW
+================================================= -->
 
-        <section
-            id="overview"
-            class="project-detail-section">
+<section id="overview" class="project-detail-section">
+
+    <div class="project-section-title">
+        <span>01</span>
+        <h2>Project Overview</h2>
+    </div>
+
+    <p class="project-section-intro">
+        This project studies Ethereum price forecasting and
+        investment-risk evaluation using quantitative financial
+        models. Ethereum was selected because cryptocurrency
+        prices exhibit high volatility, fat-tail behavior and
+        sudden price movements.
+    </p>
+
+    <p class="project-section-intro">
+        The project compares Geometric Brownian Motion (GBM)
+        with Merton Jump Diffusion (MJD) to determine how
+        effectively each model represents Ethereum price
+        behavior, forecasting performance and downside risk.
+    </p>
 
 
-            <div class="project-section-title">
+    <div class="project-three-grid">
 
-                <span>
-                    01
-                </span>
+        <article class="project-feature-box">
+            <span class="box-number">01</span>
 
-                <h2>
-                    Project Overview
-                </h2>
+            <h3>Price Forecasting</h3>
 
-            </div>
+            <p>
+                Forecasted Ethereum price behavior using
+                historical ETH/USD market data.
+            </p>
+        </article>
 
 
-            <p class="project-section-intro">
+        <article class="project-feature-box">
+            <span class="box-number">02</span>
 
-                Ethereum is a highly volatile digital asset whose
-                price can change rapidly due to market conditions
-                and unexpected events.
+            <h3>Model Comparison</h3>
 
-                This project studies whether stochastic mathematical
-                models can effectively forecast Ethereum prices and
-                evaluate extreme investment risk.
+            <p>
+                Compared GBM and Merton Jump Diffusion
+                under highly volatile market conditions.
+            </p>
+        </article>
 
+
+        <article class="project-feature-box">
+            <span class="box-number">03</span>
+
+            <h3>Risk Evaluation</h3>
+
+            <p>
+                Evaluated downside and tail risk using
+                Value at Risk and Expected Shortfall.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================================
+     02 DATA, MODELS & METHODOLOGY
+================================================= -->
+
+<section class="project-detail-section">
+
+    <div class="project-section-title">
+        <span>02</span>
+        <h2>Data, Models & Methodology</h2>
+    </div>
+
+    <p class="project-section-intro">
+        Daily ETH/USD closing-price data from January 2023
+        to December 2024 were transformed into daily returns
+        and analyzed using statistical methods.
+    </p>
+
+    <p class="project-section-intro">
+        Parameters were estimated for both GBM and MJD,
+        followed by Monte Carlo simulation to study price
+        behavior, return distributions and investment risk.
+    </p>
+
+
+    <div class="method-grid">
+
+        <div class="method-card">
+            <span>MODEL 01</span>
+
+            <h3>Geometric Brownian Motion</h3>
+
+            <p>
+                Represents continuous asset-price movements
+                using drift and volatility components.
+            </p>
+        </div>
+
+
+        <div class="method-card">
+            <span>MODEL 02</span>
+
+            <h3>Merton Jump Diffusion</h3>
+
+            <p>
+                Extends GBM by including sudden price jumps
+                to better represent extreme market behavior.
+            </p>
+        </div>
+
+
+        <div class="method-card highlight-card">
+            <span>SIMULATION</span>
+
+            <h3>Monte Carlo Simulation</h3>
+
+            <p>
+                Generated 1,000,000 simulated observations
+                for return-distribution and risk analysis.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="project-tag-grid">
+        <span>ETH/USD</span>
+        <span>GBM</span>
+        <span>MJD</span>
+        <span>Monte Carlo</span>
+        <span>Statistical Analysis</span>
+        <span>Wolfram Mathematica</span>
+        <span>Wolfram Cloud</span>
+    </div>
+
+</section>
+
+
+
+<!-- =================================================
+     03 FORECASTING & RISK ANALYSIS
+================================================= -->
+
+<section class="project-detail-section">
+
+    <div class="project-section-title">
+        <span>03</span>
+        <h2>Forecasting & Risk Analysis</h2>
+    </div>
+
+    <p class="project-section-intro">
+        Forecasting performance was evaluated using RMSE
+        and MAE, while investment risk was analyzed using
+        Value at Risk and Expected Shortfall.
+    </p>
+
+
+    <div class="performance-table">
+
+        <div class="performance-header">
+            <span>MODEL</span>
+            <span>RMSE</span>
+            <span>MAE</span>
+        </div>
+
+        <div class="performance-row">
+            <strong>GBM</strong>
+            <span>103.68</span>
+            <span>75.044</span>
+        </div>
+
+        <div class="performance-row best-model">
+            <strong>MJD</strong>
+            <span>103.16</span>
+            <span>75.028</span>
+        </div>
+
+    </div>
+
+
+    <div class="method-grid">
+
+        <div class="method-card">
+            <span>FORECASTING</span>
+
+            <h3>RMSE & MAE</h3>
+
+            <p>
+                MJD produced slightly lower forecasting
+                errors than the standard GBM model.
+            </p>
+        </div>
+
+
+        <div class="method-card">
+            <span>DOWNSIDE RISK</span>
+
+            <h3>Value at Risk</h3>
+
+            <p>
+                Estimates potential losses at selected
+                confidence levels.
+            </p>
+        </div>
+
+
+        <div class="method-card highlight-card">
+            <span>TAIL RISK</span>
+
+            <h3>Expected Shortfall</h3>
+
+            <p>
+                Measures average losses beyond the
+                Value at Risk threshold.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================================
+     04 RESULTS & PROJECT OUTCOME
+================================================= -->
+
+<section class="project-detail-section">
+
+    <div class="project-section-title">
+        <span>04</span>
+        <h2>Results & Project Outcome</h2>
+    </div>
+
+
+    <div class="project-three-grid">
+
+        <article class="project-feature-box">
+            <span class="box-number">01</span>
+
+            <h3>High Volatility</h3>
+
+            <p>
+                Ethereum returns demonstrated substantial
+                volatility throughout the study period.
+            </p>
+        </article>
+
+
+        <article class="project-feature-box">
+            <span class="box-number">02</span>
+
+            <h3>Fat-Tail Behavior</h3>
+
+            <p>
+                Extreme returns occurred more frequently
+                than a standard normal-price model assumes.
+            </p>
+        </article>
+
+
+        <article class="project-feature-box">
+            <span class="box-number">03</span>
+
+            <h3>Sudden Price Jumps</h3>
+
+            <p>
+                Jump behavior was an important characteristic
+                of Ethereum market movements.
+            </p>
+        </article>
+
+    </div>
+
+
+    <div class="project-outcome-box">
+
+        <div class="project-outcome-symbol">✦</div>
+
+        <div>
+            <span>KEY RESULT</span>
+
+            <h3>
+                Merton Jump Diffusion better represented
+                Ethereum's extreme market behavior.
+            </h3>
+
+            <p>
+                The analysis showed that GBM tends to
+                underestimate extreme cryptocurrency risk,
+                while MJD provides a more realistic
+                representation of sudden price movements
+                and tail-risk behavior.
             </p>
 
-
-            <div class="project-three-grid">
-
-
-                <article class="project-feature-box">
-
-                    <span class="box-number">
-                        01
-                    </span>
-
-                    <h3>
-                        Price Forecasting
-                    </h3>
-
-                    <p>
-
-                        Analyze historical ETH/USD data and compare
-                        forecasting performance between mathematical
-                        models.
-
-                    </p>
-
-                </article>
-
-
-                <article class="project-feature-box">
-
-                    <span class="box-number">
-                        02
-                    </span>
-
-                    <h3>
-                        Risk Evaluation
-                    </h3>
-
-                    <p>
-
-                        Evaluate downside investment risk using
-                        Value at Risk and Expected Shortfall.
-
-                    </p>
-
-                </article>
-
-
-                <article class="project-feature-box">
-
-                    <span class="box-number">
-                        03
-                    </span>
-
-                    <h3>
-                        Model Comparison
-                    </h3>
-
-                    <p>
-
-                        Compare Geometric Brownian Motion with
-                        Merton Jump Diffusion for volatile
-                        cryptocurrency behavior.
-
-                    </p>
-
-                </article>
-
-
-            </div>
-
-
-        </section>
-
-
-
-        <!-- =================================================
-             02 DATA & METHODOLOGY
-        ================================================= -->
-
-        <section class="project-detail-section">
-
-
-            <div class="project-section-title">
-
-                <span>
-                    02
-                </span>
-
-                <h2>
-                    Data & Methodology
-                </h2>
-
-            </div>
-
-
-            <div class="method-grid">
-
-
-                <div class="method-card">
-
-                    <span>
-                        DATASET
-                    </span>
-
-                    <h3>
-                        ETH/USD Daily Closing Prices
-                    </h3>
-
-                    <p>
-
-                        Historical daily Ethereum closing-price
-                        data covering January 2023 to December 2024.
-
-                    </p>
-
-                </div>
-
-
-                <div class="method-card">
-
-                    <span>
-                        MODEL 01
-                    </span>
-
-                    <h3>
-                        Geometric Brownian Motion
-                    </h3>
-
-                    <p>
-
-                        Traditional stochastic model used to
-                        represent continuous asset-price movements.
-
-                    </p>
-
-                </div>
-
-
-                <div class="method-card highlight-card">
-
-                    <span>
-                        MODEL 02
-                    </span>
-
-                    <h3>
-                        Merton Jump Diffusion
-                    </h3>
-
-                    <p>
-
-                        Extends GBM by incorporating sudden price
-                        jumps, allowing extreme cryptocurrency
-                        movements to be modeled more realistically.
-
-                    </p>
-
-                </div>
-
-
-            </div>
-
-
-        </section>
-
-
-
-        <!-- =================================================
-             03 TECHNOLOGIES
-        ================================================= -->
-
-        <section class="project-detail-section">
-
-
-            <div class="project-section-title">
-
-                <span>
-                    03
-                </span>
-
-                <h2>
-                    Technologies & Methods
-                </h2>
-
-            </div>
-
-
-            <div class="project-tag-grid">
-
-                <span>Wolfram Mathematica</span>
-
-                <span>Wolfram Cloud</span>
-
-                <span>Statistical Analysis</span>
-
-                <span>Geometric Brownian Motion</span>
-
-                <span>Merton Jump Diffusion</span>
-
-                <span>Monte Carlo Simulation</span>
-
-                <span>Value at Risk</span>
-
-                <span>Expected Shortfall</span>
-
-                <span>Parameter Estimation</span>
-
-                <span>Risk Analysis</span>
-
-            </div>
-
-
-        </section>
-
-
-
-        <!-- =================================================
-             04 DEVELOPMENT PROCESS
-        ================================================= -->
-
-        <section class="project-detail-section">
-
-
-            <div class="project-section-title">
-
-                <span>
-                    04
-                </span>
-
-                <h2>
-                    Development Process
-                </h2>
-
-            </div>
-
-
-            <div class="project-process">
-
-
-                <div>
-
-                    <span>01</span>
-
-                    <strong>
-                        Data Collection
-                    </strong>
-
-                </div>
-
-
-                <b>→</b>
-
-
-                <div>
-
-                    <span>02</span>
-
-                    <strong>
-                        Data Preparation
-                    </strong>
-
-                </div>
-
-
-                <b>→</b>
-
-
-                <div>
-
-                    <span>03</span>
-
-                    <strong>
-                        Statistical Analysis
-                    </strong>
-
-                </div>
-
-
-                <b>→</b>
-
-
-                <div>
-
-                    <span>04</span>
-
-                    <strong>
-                        Parameter Estimation
-                    </strong>
-
-                </div>
-
-
-                <b>→</b>
-
-
-                <div>
-
-                    <span>05</span>
-
-                    <strong>
-                        GBM / MJD
-                    </strong>
-
-                </div>
-
-
-                <b>→</b>
-
-
-                <div>
-
-                    <span>06</span>
-
-                    <strong>
-                        Risk Evaluation
-                    </strong>
-
-                </div>
-
-
-            </div>
-
-
-        </section>
-
-
-
-        <!-- =================================================
-             05 FORECASTING PERFORMANCE
-        ================================================= -->
-
-        <section class="project-detail-section">
-
-
-            <div class="project-section-title">
-
-                <span>
-                    05
-                </span>
-
-                <h2>
-                    Forecasting Performance
-                </h2>
-
-            </div>
-
-
-            <p class="project-section-intro">
-
-                Forecasting performance was evaluated using
-                RMSE and MAE. The Merton Jump Diffusion model
-                produced slightly lower forecasting errors
-                than the standard GBM model.
-
+            <p>
+                This project strengthened my experience in
+                quantitative modeling, statistical analysis,
+                Monte Carlo simulation and financial-risk
+                evaluation.
             </p>
+        </div>
 
+    </div>
 
-            <div class="performance-table">
-
-
-                <div class="performance-header">
-
-                    <span>
-                        MODEL
-                    </span>
-
-                    <span>
-                        RMSE
-                    </span>
-
-                    <span>
-                        MAE
-                    </span>
-
-                </div>
-
-
-                <div class="performance-row">
-
-                    <strong>
-                        Geometric Brownian Motion
-                    </strong>
-
-                    <span>
-                        103.68
-                    </span>
-
-                    <span>
-                        75.044
-                    </span>
-
-                </div>
-
-
-                <div class="performance-row best-model">
-
-                    <strong>
-                        Merton Jump Diffusion
-                    </strong>
-
-                    <span>
-                        103.16
-                    </span>
-
-                    <span>
-                        75.028
-                    </span>
-
-                </div>
-
-
-            </div>
-
-
-        </section>
-
-
-
-        <!-- =================================================
-             06 RISK ANALYSIS
-        ================================================= -->
-
-        <section class="project-detail-section">
-
-
-            <div class="project-section-title">
-
-                <span>
-                    06
-                </span>
-
-                <h2>
-                    Risk Analysis
-                </h2>
-
-            </div>
-
-
-            <div class="method-grid">
-
-
-                <div class="method-card">
-
-                    <span>
-                        VALUE AT RISK
-                    </span>
-
-                    <h3>
-                        Downside Risk
-                    </h3>
-
-                    <p>
-
-                        Value at Risk was used to estimate the
-                        potential loss threshold at a selected
-                        confidence level.
-
-                    </p>
-
-                </div>
-
-
-                <div class="method-card">
-
-                    <span>
-                        EXPECTED SHORTFALL
-                    </span>
-
-                    <h3>
-                        Extreme Loss
-                    </h3>
-
-                    <p>
-
-                        Expected Shortfall was used to measure
-                        average losses beyond the VaR threshold.
-
-                    </p>
-
-                </div>
-
-
-                <div class="method-card highlight-card">
-
-                    <span>
-                        TAIL RISK
-                    </span>
-
-                    <h3>
-                        Extreme Market Behavior
-                    </h3>
-
-                    <p>
-
-                        MJD represented fat-tail behavior and
-                        sudden Ethereum price jumps more effectively
-                        than GBM.
-
-                    </p>
-
-                </div>
-
-
-            </div>
-
-
-        </section>
-
-
-
-        <!-- =================================================
-             07 PROJECT OUTCOME
-        ================================================= -->
-
-        <section class="project-detail-section">
-
-
-            <div class="project-section-title">
-
-                <span>
-                    07
-                </span>
-
-                <h2>
-                    Project Outcome
-                </h2>
-
-            </div>
-
-
-            <div class="project-outcome-box">
-
-
-                <div class="project-outcome-symbol">
-
-                    ✦
-
-                </div>
-
-
-                <div>
-
-                    <span>
-                        KEY FINDING
-                    </span>
-
-
-                    <h3>
-
-                        Merton Jump Diffusion provides a more
-                        realistic representation of Ethereum
-                        market risk.
-
-                    </h3>
-
-
-                    <p>
-
-                        Ethereum returns exhibit high volatility,
-                        fat-tail behavior and sudden price jumps.
-
-                        The analysis found that MJD was more suitable
-                        than standard GBM for representing these
-                        extreme movements and also produced slightly
-                        lower forecasting errors.
-
-                    </p>
-
-                </div>
-
-
-            </div>
-
-
-        </section>
-
+</section>
 
 
 
